@@ -1,0 +1,44 @@
+#profile{
+    width: 60%;
+    border-radius: 60px;
+}
+#welcome{
+    background-image:linear-gradient( rgb(11, 237, 11),rgb(34, 133, 15));
+    padding: 10px;
+    z-index:9;
+}
+body{
+    text-align: center;
+}
+#HI{
+   font-size: 50px;
+}
+.menu{
+    position: absolute;
+    list-style:none;
+    top:10px;
+    right:30px;
+    z-index:10;
+    cursor: pointer;
+}
+.links{
+    float:left;
+    font-family: cursive;
+    font-size:15px;
+    padding:9px;
+    color:gray
+}
+.links:hover{
+    background-color: white;
+    font-size:25px;
+}
+#name{
+    font-family: 'Ms Madi', cursive;
+    font-size:100px;
+}
+#para{
+    font-family:'Ms Madi', cursive;
+    font-family: 'Tiro Telugu', serif;
+    margin-left: 5px;
+    margin-right: 5px;
+}
